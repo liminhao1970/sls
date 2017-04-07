@@ -10,27 +10,30 @@
 
 <body>
     <div id="box">
-        <div class="logmain">
-            <div class="logdv1">
-                <span class="logzi">用户名</span>
-                <input name="textarea" type="text" id="textarea" class="ipt" placeholder="系统账号">
-            </div>
-            <div class="logdv2">
-                <span class="logzi">密 码</span>
-                <input name="textarea" type="password" id="textarea" class="ipt" placeholder="系统密码">
-            </div>
-            <div class="logdv3">
-                <input name="提交" type="submit" class="btnbg" value="点击登录">
-            </div>
-            <!-- <div>
+        <form action="" method="POST" enctype="application/x-www-form-urlencoded">
+            <div class="logmain">
+                <div class="logdv1">
+                    <span class="logzi">用户名</span>
+                    <input name="user" type="text" id="input1" class="ipt" placeholder="系统账号" value="">
+                </div>
+                <div class="logdv2">
+                    <span class="logzi">密 码</span>
+                    <input name="psd" type="password" id="input2" class="ipt" placeholder="系统密码" value="">
+                </div>
+                <div class="logdv3">
+                    <input name="提交" type="submit" id="btnbg" value="点击登录">
+                </div>
+                <!-- <div>
                 <a href="#" class="more">注册</a>
             </div> -->
-        </div>
+            </div>
+        </form>
         <footer id="foo">
             <a href="#">QQ智慧校园</a>
             <a href="#">技术支持</a>
         </footer>
     </div>
+    <script src="js/login.js"></script>
 </body>
 
 </html>
